@@ -1,0 +1,55 @@
+Ejercicios Rutas absolutas, rutas relativas.
+
+Pregunta 1
+Estando en B acceder a b.txt usando ruta relativa
+
+./C/b.text
+
+Pregunta 2
+Estando en C acceder a F usando ruta absoluta
+
+A:\D\E\F
+
+Pregunta 3
+Estando en F acceder a A usando ruta relativa
+
+../E../..D/..
+
+Pregunta 4
+Estando en D acceder a c.txt usando ruta absoluta
+
+A:\B\C\c.txt
+
+Pregunta 5
+Estando en C acceder a a.txt usando ruta abosulta
+
+A:\D\E\F\a.txt
+
+Pregunta 6
+Estando en C acceder a a.txt usando ruta relativa
+
+../../../D/E/F/a.txt
+
+Pregunta 7
+Estando en E acceder a E usando ruta absoluta
+
+A:\D\E
+
+Pregunta 8
+Estando en E acceder a E usando ruta relativa
+
+.
+
+Pregunta 9
+Estando en E acceder a D usando ruta relativa
+
+../
+
+Pregunta 10
+
+Estando en E acceder a F usando ruta relativa
+./F
+
+Pregunta 11
+Estando en E acceder a F usando ruta absoluta
+A/D/E/F
