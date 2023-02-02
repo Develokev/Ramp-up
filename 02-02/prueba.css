@@ -1,0 +1,77 @@
+h1 {
+    color:seagreen;
+}
+
+strong {
+    color: red;
+}
+
+.destacado {
+    color:yellow;
+}
+
+#subtitulo {
+    color: blue;
+}
+
+a {
+    color: red;
+}
+
+p a em {
+    color:blue;
+}
+
+.especial {
+    color: purple;
+}
+
+caption {
+    color:blue;
+}
+
+table, th, td{
+    border: solid black 1px;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
+
+th.especial {
+    color: yellow;
+}
+
+tfoot {
+    color: red;
+}
+
+tbody tr {
+    color: green;
+}
+
+tbody tr th {
+    color: red;
+}
+
+tbody tr td strong {
+    color: yellow;
+}
+
+#adicional {
+    color:rgb(138, 198, 34);
+}
+
+#especial {
+    color:fuchsia;
+}
+
+div p a {
+    color:green
+}
