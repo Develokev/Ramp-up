@@ -1,4 +1,9 @@
 /* Style Ruleset HEADER */
+header {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: black;
 }
@@ -52,16 +57,16 @@ nav a:visited {
 }
 
 * {
-    margin: 1%;
-    padding: 0%;
+    margin: 4px;
+    padding: 0;
 }
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* Style Ruleset BODY */
 .img_logo {
-    margin-top: none;
-    padding: none;
+    margin-top: 0;
+    padding: 0;
     text-align: left;
     display: flex;
     position:fixed;
