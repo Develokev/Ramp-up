@@ -87,7 +87,8 @@ nav a:visited {
 
 .img_portada {
     margin-top: 5%;
-    background-image: url("https://www.mundo-surf.com/blog/wp-content/uploads/2021/03/Image-1-768x661.jpg");
+    background-image: url(../media/Daniela\ Boldini\ portada.PNG);
+    /* alternativa url("https://www.mundo-surf.com/blog/wp-content/uploads/2021/03/Image-1-768x661.jpg"); */
     height: 1000px;
     background-size: cover;
     background-position: center;
