@@ -1,0 +1,148 @@
+/* Style Ruleset HEADER */
+header {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color:rgb(88, 31, 202);
+    font-size: 45px;
+    font-family: Impact;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h3 {
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: Monospace;
+    text-align: center;
+}
+
+nav {
+    margin-top: 40px;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a {
+    color:rgb(104, 0, 145);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+nav a:link {
+    text-decoration: none;
+    text-decoration-style: wavy;
+    color:rgb(104, 0, 145);
+}
+
+nav a:hover {
+    background-color: yellowgreen;
+}
+
+nav a:visited {
+    color:rgb(31, 202, 45)
+}
+
+* {
+    margin: 3px;
+    padding: 0;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style Ruleset BODY */
+.slide_logo {
+    margin-top: 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    position: fixed;
+}
+
+.slide_logo p{
+    color:rgb(21, 165, 170);
+    margin-top: 160px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.img_titulo {
+    text-align: center;
+}
+
+h2 {
+    font-family: sans-serif;
+    background-color: white;
+    opacity: 60%;
+}
+
+.santac_logo {
+    display: block;
+    margin-left: 0;
+    padding: 0;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* Style Ruleset Sections */
+.slide_gallery {
+    display: flex;
+    align-content: space-around;
+}
+
+.fotos_slide {
+    width: 19%
+}
+
+.carver_gallery {
+    display: flex;
+    align-content: space-around;
+}
+
+.fotos_carver {
+    width: 19%
+}
+
+.yow_gallery {
+    display: flex;
+    align-content: space-around;
+}
+
+.fotos_yow {
+    width: 19%;
+}
+
+.santac_gallery {
+    display: flex;
+    align-content: space-around;
+}
+
+.fotos_santac {
+    width: 19%;
+}
+
+.brands {
+    text-decoration: none;
+    color:rgb(104, 0, 145);
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style Ruleset Footer */
+
+footer p {
+    border-top: 2px solid whitesmoke;
+    padding-top: 10px;
+}

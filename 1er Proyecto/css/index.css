@@ -1,0 +1,163 @@
+/* Style Ruleset HEADER */
+header {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color:rgb(88, 31, 202);
+    font-size: 45px;
+    font-family: Impact;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+h3 {
+    color:whitesmoke;
+    font-size: 20px;
+    font-family: Monospace;
+    text-align: center;
+}
+
+nav {
+    margin-top: 40px;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a {
+    color:rgb(104, 0, 145);
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+nav:link {
+    text-decoration: none;
+    text-decoration-style: wavy;
+    color:rgb(104, 0, 145);
+}
+
+nav a:hover {
+    background-color: yellowgreen;
+}
+
+nav a:visited {
+    color:rgb(31, 202, 45)
+}
+
+* {
+    margin: 3px;
+    padding: 0;
+}
+
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style Ruleset BODY */
+.slide_logo {
+    margin-top: 0;
+    padding: 0;
+    text-align: left;
+    display: flex;
+    position: fixed;
+}
+
+.slide_logo p{
+    color:rgb(21, 165, 170);
+    margin-top: 160px;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.img_portada {
+    margin-top: 5%;
+    background-image: url("https://www.mundo-surf.com/blog/wp-content/uploads/2021/03/Image-1-768x661.jpg");
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+
+.caption_1 {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family:sans-serif;
+    text-align: center;
+    line-height: 14px;
+    margin-right: 2px;
+    margin-left: 90%;
+    position: relative;
+    padding: 4px;
+    top: 95%;
+    width: 7%;
+    background-color: white;
+    color: black;
+    opacity: 60%;
+}
+
+.img_titulo {
+    text-align: center;
+}
+
+.description_1 {
+    color: rgb(105, 35, 172);
+    margin: 2%;
+
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+.description_2 {
+    color: whitesmoke;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    font-size: 24px;
+    margin: 5%;
+}
+
+/* Hovers for links */
+.description_1 .pro_amateur_link:link{
+    color:rgb(21, 165, 170);
+}
+
+.description_1 .pro_amateur_link:hover {
+    background-color: yellowgreen;
+}
+
+.description_2 .national:hover {
+    background-color: yellowgreen;
+}
+
+.description_2 .events:hover {
+    background-color: yellowgreen;
+}
+
+.description_2 .camps:hover {
+    background-color: yellowgreen;
+}
+
+.description_2 .boards:hover {
+    background-color: yellowgreen;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style Ruleset Footer */
+
+footer p {
+    border-top: 2px solid whitesmoke;
+    padding-top: 10px;
+}
