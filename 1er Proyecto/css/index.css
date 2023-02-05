@@ -44,7 +44,7 @@ nav a {
     font-size: 16px;
 }
 
-nav:link {
+nav a:link {
     text-decoration: none;
     text-decoration-style: wavy;
     color:rgb(104, 0, 145);
@@ -63,9 +63,6 @@ nav a:visited {
     padding: 0;
 }
 
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-
-/* Style Ruleset BODY */
 .slide_logo {
     margin-top: 0;
     padding: 0;
@@ -80,6 +77,13 @@ nav a:visited {
     margin-left: 40px;
     position: absolute;
 }
+
+.img_titulo {
+    text-align: center;
+}
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+/* Style Ruleset BODY */
 
 .img_portada {
     margin-top: 5%;
@@ -107,14 +111,9 @@ nav a:visited {
     opacity: 60%;
 }
 
-.img_titulo {
-    text-align: center;
-}
-
 .description_1 {
     color: rgb(105, 35, 172);
     margin: 2%;
-
     font-family: sans-serif;
     text-align: center;
     font-size: 50px;

@@ -1,4 +1,3 @@
-/* Style Ruleset HEADER */
 header {
     margin: 0;
     padding: 0;
@@ -84,60 +83,35 @@ nav a:visited {
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* Style Ruleset BODY */
+.hr { 
+    height:5px; 
+    width: 30%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: yellowgreen;
+}
 
-h2 {
+form header{
+    color: black;
+    background-color: blueviolet;
     font-family: sans-serif;
-    background-color: white;
-    opacity: 60%;
+    margin-top: 4%;
+    margin-bottom: 4%;
 }
 
-.santac_logo {
-    display: block;
-    margin-left: 0;
-    padding: 0;
-}
-
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-/* Style Ruleset Sections */
-.slide_gallery {
-    display: flex;
-    align-content: space-around;
-}
-
-.fotos_slide {
-    width: 19%
-}
-
-.carver_gallery {
-    display: flex;
-    align-content: space-around;
-}
-
-.fotos_carver {
-    width: 19%
-}
-
-.yow_gallery {
-    display: flex;
-    align-content: space-around;
-}
-
-.fotos_yow {
-    width: 19%;
-}
-
-.santac_gallery {
-    display: flex;
-    align-content: space-around;
-}
-
-.fotos_santac {
-    width: 19%;
-}
-
-.brands {
-    text-decoration: none;
+h3 {
     color:rgb(104, 0, 145);
+    font-family: sans-serif;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+
+section {
+    color: whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
 }
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
