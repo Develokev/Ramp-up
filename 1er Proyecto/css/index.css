@@ -85,6 +85,16 @@ nav a:visited {
 
 /* Style Ruleset BODY */
 
+#news {
+    display: block;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
 .img_portada {
     margin-top: 5%;
     background-image: url(../media/Daniela\ Boldini\ portada.PNG);
