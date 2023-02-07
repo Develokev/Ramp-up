@@ -4,3 +4,4 @@ function saludo(){
 function despedida(){
     alert('Good bye');
 }
+
