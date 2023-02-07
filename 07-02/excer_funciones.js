@@ -7,7 +7,6 @@ console.log(n2);
 var n3 = parseInt(prompt("Introduce un último número distinto de los otros dos"));
 console.log(n3);
 
-
 if (n1 === n2 && n2 === n3) {
   alert("Error al introducir datos");
 } else {
@@ -84,10 +83,26 @@ if (sumrest == '+') {
 
 console.log(result);}
 
-function ejercicio_5() {
-//aquí va el código del 5to ejercicio//
+function num_asociado() {
+  var letra = prompt("Por favor, escriba una letra: ");
+
+  switch (letra) {
+      case "a":                               //case "a" == if(letra == "a")
+          alert("Tu número asociado es el 7");
+          break;
+      case "b":
+          alert("Tu número asociado es el 9");
+          break;
+      case "c":
+          alert("Tu número asociado es el 101");
+          break;
+      default:
+          alert("Lo siento, te has equivocado de letra");
+  }
 }
 
 function ejercicio_6 () {
 //aquí va el código del 6to ejercicio//
 }
+
+
