@@ -92,9 +92,44 @@ nav a:visited {
     margin-top: 4%;
     margin-bottom: 2%;
 }
+
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-/* Style Ruleset BODY */
+/* Style Ruleset BODY SECTIONS*/
+.surfcams_block1 {
+    display: flex;
+}
+
+.surfcams_block2 {
+    display: flex;
+}
+
+.block1 { /*los bloques son columnas, se leen: izq sup, izq inf; luego, bloque 2"*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+.block2 {
+    margin-top: 15%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+#grlswrl_logo {
+    display: inline;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+section a:hover{
+    background-color: yellowgreen;
+    border-radius: 50%;
+    border-width: 12px;
+}
+
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
