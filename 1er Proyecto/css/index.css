@@ -84,6 +84,7 @@ nav a:visited {
 
 #news {
     display: block;
+    font-family: sans-serif;
     color: whitesmoke;
     border-bottom: 2px solid whitesmoke;
     padding-bottom: 10px;
@@ -122,47 +123,49 @@ nav a:visited {
     opacity: 60%;
 }
 
-.description_1 {
+.biograf {
+    display: flex;
+    align-content: space-around;
+}
+
+#description_1 {
     color: rgb(105, 35, 172);
-    margin: 2%;
+    margin: 4%;
     font-family: sans-serif;
-    text-align: center;
+    text-align: justify;
     font-size: 50px;
 }
 
-.description_2 {
+#description_1_esp {
+    color: rgb(64, 147, 214);
+    font-family: monospace;
+    font-size: 24px;
+    text-align: justify;
+    margin-top: 8%;
+    margin-left: 4%;
+    margin-right: 5%;
+    margin-bottom: 4%;
+}
+
+#description_2 {
     color: whitesmoke;
     font-weight: bold;
     font-family: monospace;
     text-align: center;
     font-size: 24px;
-    margin: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
 }
 
 /* Hovers for links */
-.description_1 .pro_amateur_link:link{
-    color:rgb(21, 165, 170);
-}
-
-.description_1 .pro_amateur_link:hover {
+#description_1 .pro_amateur_link:hover {
     background-color: yellowgreen;
 }
 
-.description_2 .national:hover {
+#description_2 a:hover {
     background-color: yellowgreen;
 }
 
-.description_2 .events:hover {
-    background-color: yellowgreen;
-}
-
-.description_2 .camps:hover {
-    background-color: yellowgreen;
-}
-
-.description_2 .boards:hover {
-    background-color: yellowgreen;
-}
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* Style Ruleset Footer */

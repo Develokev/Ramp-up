@@ -84,6 +84,7 @@ nav a:visited {
 
 #surfcamp_header {
     display: block;
+    font-family: sans-serif;
     color: whitesmoke;
     border-bottom: 2px solid whitesmoke;
     padding-bottom: 10px;
