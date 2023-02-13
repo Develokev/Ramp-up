@@ -93,7 +93,7 @@ h2 {                                /*links de las brands*/
     opacity: 60%;
 }
 
-a h2:hover {                        /*sobreado de link de brands*/
+h2 a:hover {                        /*sobreado de link de brands*/
     background-color: yellowgreen;
 }
 
